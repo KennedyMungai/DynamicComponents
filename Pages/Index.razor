@@ -1,9 +1,25 @@
 ﻿@page "/"
+@using DynamicComponents.Components
 
-<PageTitle>Index</PageTitle>
+<div class="mb-3">
+    <label for="" class="form-label">Some Dynamic Components</label>
+    <select class="form-control" name="" id="" @onchange="OnChange">
+        <option value="@nameof(CheckBoxComponent)"><p class="lead">Check Box</p></option>
+        <option value="@nameof(TextBoxComponent)"><p class="lead">Text Box</p></option>
+        <option value="@nameof(RadioButtonComponent)"><p class="lead">Radio Button</p></option>
+    </select>
+</div>
 
-<h1>Hello, world!</h1>
+<br>
 
-Welcome to your new app.
+<DynamicComponent Type="selectedType">
+</DynamicComponent>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code{
+    Type selectedType = typeof(CheckBoxComponent);
+
+    public void OnChange(ChangeEventArgs changeEventArgs)
+    {
+        selectedType = Type.GetType($"DynamicComponents.Components.{changeEventArgs.Value}");
+    }
+}

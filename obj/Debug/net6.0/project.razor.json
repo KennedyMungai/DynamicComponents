@@ -326,39 +326,6 @@
         }
       },
       {
-        "HashCode": 437041942,
-        "Kind": "Components.Component",
-        "Name": "DynamicComponents.Components.TextBoxComponent",
-        "AssemblyName": "DynamicComponents",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TextBoxComponent"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DynamicComponents.Components.TextBoxComponent"
-        }
-      },
-      {
-        "HashCode": -1437318499,
-        "Kind": "Components.Component",
-        "Name": "DynamicComponents.Components.TextBoxComponent",
-        "AssemblyName": "DynamicComponents",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DynamicComponents.Components.TextBoxComponent"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DynamicComponents.Components.TextBoxComponent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -2101551890,
         "Kind": "Components.Component",
         "Name": "DynamicComponents.Components.CheckBoxComponent",
@@ -421,6 +388,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DynamicComponents.Components.RadioButtonComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 437041942,
+        "Kind": "Components.Component",
+        "Name": "DynamicComponents.Components.TextBoxComponent",
+        "AssemblyName": "DynamicComponents",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TextBoxComponent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DynamicComponents.Components.TextBoxComponent"
+        }
+      },
+      {
+        "HashCode": -1437318499,
+        "Kind": "Components.Component",
+        "Name": "DynamicComponents.Components.TextBoxComponent",
+        "AssemblyName": "DynamicComponents",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DynamicComponents.Components.TextBoxComponent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DynamicComponents.Components.TextBoxComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
